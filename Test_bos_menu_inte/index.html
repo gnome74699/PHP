@@ -1,0 +1,123 @@
+﻿<!DOCTYPE HTML>
+<html>
+    <head>
+    	<title>Title of the document</title>
+        <link href="css.css" rel="stylesheet" type="text/css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="js.js"></script>
+    </head>
+    <body>
+       	<div id="content">
+        	<header>
+            	<img>
+                <p>Back Office Domaine</p> 
+                <p>Secuserve</p>
+    		</header>
+    		<div id="lv"></div>
+   			<article>
+                <section class="col">
+                    <div class="rowcell bottomborder"><h3>Domaine</h3></div>
+                    <div class="rowcell bottomborder">
+                        <select id = "domainenormalementlong" onFocus="changeSelectActif('domainenormalementlong')">
+                           <option value = "1">Normalementlong fr</option>
+                           <option value = "2">two</option>
+                           <option value = "3">three</option>
+                           <option value = "4">four</option>
+                         </select>
+                     </div>
+        			 <div class="rowcell bottomborder">
+                         <select id = "domaineid" onFocus="changeSelectActif('domaineid')">
+                           <option value = "1">Id :</option>
+                           <option value = "2">two</option>
+                           <option value = "3">three</option>
+                           <option value = "4">four</option>
+                         </select>
+                     </div>
+                     <div class="rowcell"> 
+                     	<a href="#"> Nouveau </a>
+                     </div>
+                      
+                </section>
+                <section class="col leftBorrder">
+                    <div class="rowcell bottomborder"><h3>Login</h3></div>
+                    <div class="rowcell bottomborder">
+                        <select id = "loginnom" onFocus="changeSelectActif('loginnom')">
+                           <option value = "1">Nom :</option>
+                           <option value = "2">two</option>
+                           <option value = "3">three</option>
+                           <option value = "4">four</option>
+                         </select>
+                     </div>
+                     <div class="rowcell bottomborder">
+                     <select id = "loginid" onFocus="changeSelectActif('loginid')">
+                       <option value = "1">Id :</option>
+                       <option value = "2">two</option>
+                       <option value = "3">three</option>
+                       <option value = "4">four</option>
+                     </select>
+                     </div>
+                     <div class="rowcell">
+                     <a href="#"> Nouveau </a>
+                     </div>
+                </section>
+                <section class="col leftBorrder">
+                    <div class="rowcell bottomborder"><h3>solution</h3></div>
+                    <div class="rowcell bottomborder">
+                        <select id = "solutionnom" onFocus="changeSelectActif('solutionnom')">
+                           <option value = "1">Nom :</option>
+                           <option value = "2">two</option>
+                           <option value = "3">three</option>
+                           <option value = "4">four</option>
+                         </select>
+                     </div>
+                     <div class="rowcell">
+                     	<a href="#"> Nouveau </a>
+                     </div>
+                </section>
+                
+                <section class="col leftBorrder">
+                    <div class="rowcell bottomborder"><h3 id="incident">Incident</h3></div>
+                    <div class="rowcell bottomborder">
+                        <p>
+                        <span id="numberofincident">X</span> en cours
+                        </p>
+                    </div>
+                    <div class="rowcell">
+                    	<a href="#"> Gestion </a>
+                    </div>
+                </section>
+                
+                <section class="col leftBorrder">
+                 	<div class="rowcell bottomborder">
+                    	<h3>Virus</h3>
+                    </div>
+                    <div class="rowcell bottomborder">
+                        <p>
+                            Compeur
+                        </p>
+                    </div>
+                    <div class="rowcell">
+                    	<a href="#"> Ajouter </a>
+                    </div>
+                </section>
+                
+                <section class="col leftBorrder">
+                 	<div class="rowcell bottomborder">
+                    	<h3>Statistique</h3>
+                    </div>
+                    <div class="rowcell bottomborder">
+                        <p>
+                         17/03/2013
+                        </p>
+                    </div>
+                     <div class="rowcell">
+                     	<a href="#" class="rowcell"> Import </a>
+                     </div>
+                     <div class="rowcell">
+                    	<a href="#" class="rowcell"> Nouveau </a>
+                     </div>
+                </section>
+        	</article>
+        </div>
+    </body>
+</html>
